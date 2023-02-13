@@ -1,0 +1,5 @@
+FROM fedora:latest
+
+RUN dnf in -y nmap
+
+ENTRYPOINT bash 
